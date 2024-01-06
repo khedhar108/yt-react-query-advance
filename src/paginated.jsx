@@ -151,7 +151,7 @@ function Products() {
             >
               Prev
             </button>
-            //* tricky- next button disable code
+            //! tricky- next button disable code
             <button
               disabled={limit + skip >= products?.total}
               className="bg-purple-500 px-4 py-1 text-white rounded"
